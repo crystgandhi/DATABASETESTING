@@ -4,8 +4,8 @@ export class DBHelper {
   static async executeQuery(query: string) {
     const connection = await mysql.createConnection({
       host: 'localhost',
-      user: 'Gandhi',
-      password: 'Utestgandhi@2020',
+      user: 'root',
+      password: 'root',
       database: 'employeedb'
     });
 
