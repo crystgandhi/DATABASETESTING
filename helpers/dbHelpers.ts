@@ -17,4 +17,3 @@ export class DBHelper {
   }
 }
 
-//mysql://localhost:3306/employee","Gandhi", "Utestgandhi@2020"
