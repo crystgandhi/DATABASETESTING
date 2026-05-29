@@ -6,7 +6,7 @@ export class DBHelper {
       host: 'localhost',
       user: 'Gandhi',
       password: 'Utestgandhi@2020',
-      database: 'employeedb'
+      database: 'StudentDB'
     });
 
     const [rows] = await connection.execute(query);
