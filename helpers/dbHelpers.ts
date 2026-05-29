@@ -17,23 +17,4 @@ export class DBHelper {
   }
 }
 
-
-/*import mysql from 'mysql2/promise';
-
-export class DBHelper {
-  static async getConnection() {
-    return mysql.createConnection({
-      host: 'localhost',
-      user: 'root',
-      password: 'your_password',
-      database: 'automation_api_db'
-    });
-  }
-
-  static async executeQuery(query: string, values?: any[]) {
-    const connection = await this.getConnection();
-    const [rows] = await connection.execute(query, values);
-    await connection.end();
-    return rows;
-  }
-}*/
+//mysql://localhost:3306/employee","Gandhi", "Utestgandhi@2020"
